@@ -28,14 +28,19 @@
               </div>
               <div class="mx-auto col-12 col-sm-10 col-md-7 col-xl-6 bg-white p-5 paper-box-shadow">
                 <form onsubmit="return false">
-                  <legend class="mb-3">Admin Login</legend>
+                  <div class="d-flex align-items-center mb-3 justify-content-between">
+                    <span class="h4">Admin Login</span>
+                    <div id="spinner" class="spinner-border d-none spinner-border-sm" role="status">
+                      <span class="sr-only">Loading...</span>
+                    </div>
+                  </div>
                   <div class=" form-group">
                     <label>Email Address</label>
                     <input name="email" class="form-control"  >
                   </div>
                   <div class=" form-group">
                     <label>Password</label>
-                    <input name="pass" class="form-control"  >
+                    <input name="pass" class="form-control" type="password"  >
                   </div>
                   <button class="btn btn-success btn-block">Login</button>
                 </form>
@@ -45,7 +50,7 @@
           </div>
         </div>
       </section>
-		</main>
+    </main>
 		<script src="./assets/js/login.js"></script>
 	</body>
 </html>
