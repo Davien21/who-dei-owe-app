@@ -1,52 +1,36 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Who dei owe?</title>
+		<title>Blinq's Afridishes</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
 		<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	</head>
 	<body>
- 
-		<main>
-      <section class="my-5">
+    <div id="fullpage">
+      <div class="section">
         <div class="container-fluid">
           <div class="row">
-            <div class=" col-12 col-sm-11 col-md-10 col-lg-7 mx-auto">
-              <div class="mb-4 mx-auto row">
-                <div class="col-auto">
-                  <img class="tiny-svg" src="./assets/imgs/svgs/logo-2.svg">
-                </div>
-                <div class="col-auto">
-                  <h1 class=" h4">Who dei owe?</h1>
-                </div>
-                <div class="  ml-auto">
-                  <a href="./login.html" class="btn btn-outline-danger">Admin</a>
-                </div>
-              </div>
-              <div class="bg-white paper-box-shadow">
-                <table id="debtsTable" class="table table-hover">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col">Name</th>
-                      <th scope="col">Cause</th>
-                      <th scope="col">Amount (₦)</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                     
-                  </tbody>
-                </table>
-              </div>
-            
+            <div class="col">
+              <img class="absolute" src="./assets/imgs/svgs/blinq-white-logo.svg" alt="">
             </div>
           </div>
         </div>
-      </section>
-		</main>
-		<script src="./assets/js/main.js"></script>
+      </div>
+      <div class="section">Some section</div>
+      <div class="section">Some section</div>
+      <div class="section">Some section</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#11CE78', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+      });
+    </script>
+    <!-- <script src="./assets/js/main.js"></script> -->
+    <!-- <script src="./assets/js/"></script> -->
 	</body>
 </html>
